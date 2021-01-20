@@ -43,7 +43,7 @@ $res = $produtoController->selectAll($pesq_produto, $pesq_cor, $pesq_preco);
                 </div>
 
                 <div class="form-group col-md-6">
-                    <label for="preco">Preço (<sapan class="text-danger">*</sapan>) - <strong> Ex: 0.00</strong></label>
+                    <label for="preco">Preço (<sapan class="text-danger">*</sapan>) - <strong> Ex: 1.99</strong></label>
                     <input type="text" class="form-control" name="preco" id="preco" autocomplete="off">
                 </div>
 
@@ -78,7 +78,7 @@ $res = $produtoController->selectAll($pesq_produto, $pesq_cor, $pesq_preco);
                     <input type="text" class="form-control" name="pesq_cor" id="pesq_cor" autocomplete="off">
                 </div>
                 <div class="form-group col-md-4">
-                    <label for="">Preco - <strong>Ex: 0.00</strong> </label>
+                    <label for="">Preco - <strong>Ex: 1.99</strong> </label>
                     <input type="text" class="form-control" name="pesq_preco" id="pesq_preco" autocomplete="off">
                 </div>
 

@@ -43,7 +43,7 @@ if (isset($_GET['id'])) {
                 </div>
 
                 <div class="form-group col-md-6">
-                    <label for="">Preço (<sapan class="text-danger">*</sapan>) - <strong>Ex: 0.00</strong></label>
+                    <label for="">Preço (<sapan class="text-danger">*</sapan>) - <strong>Ex: 1.99</strong></label>
                     <input type="text" class="form-control" value="<?= $produto['preco'] ?>" name="preco" id="preco" autocomplete="off">
                 </div>
 
