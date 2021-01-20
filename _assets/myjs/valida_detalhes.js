@@ -16,6 +16,6 @@ recuperaId("atualizar").addEventListener("click", (event) => {
     recuperaId("msgErro").innerHTML =
       "Ops... Atenção! O Campo Preço é Obrigatório e deve ser Maior que 0";
   } else {
-    alert("Produto Salvo com sucesso!");
+    alert("Produto Atualizado!");
   }
 });

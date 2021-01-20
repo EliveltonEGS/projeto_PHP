@@ -68,7 +68,7 @@ class ProdutoController
         //insere no banco, após respeitar as regras de cores e valor
         $produtoModel->insert($produto, $preco);
 
-        echo "<script>alert('Sucesso!');document.location='../view/produto.php'</script>";
+        header('Location: ../view/produto.php');
     }
 
     //lista todos os produtos que contem o nome do produto, cor ou preço
@@ -126,7 +126,7 @@ class ProdutoController
 
         $produtoModel->update($produto, $preco);
 
-        echo "<script>alert('Produto Atualizado!');document.location='../view/produto.php'</script>";
+        header('Location: ../view/produto.php');
     }
 
     //exclui o produto e preço corrente
